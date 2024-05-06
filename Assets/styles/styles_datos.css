@@ -1,0 +1,18 @@
+
+.contenedor_principal{
+    display: flex;
+    height: 100%;
+    
+}
+
+.contenedor1{
+    background-image: url("/assets/img/datos.png");
+    width: 50%;
+    height: 100%;
+}
+
+.contenedor2{
+    background-color: tomato;
+    width: 50%;
+    height: 100%;
+}

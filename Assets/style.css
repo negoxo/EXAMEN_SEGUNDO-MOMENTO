@@ -1,27 +1,35 @@
 *
 {
     box-sizing: border-box; 
+    align-items: center;
 }
+
 
 body
 {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     font-family: 'Permanent Marker', cursive;
+    
 }
 
+/* esto es el header*/
 nav{
-    margin: 20px;
+    
     background-color: #98bea4;
     text-align: center;
-    padding-top: 10px 0;     
-    
+    padding-top: 10px 0; 
+    border-radius: 10px;
+    width: 100%;
+    margin-right: 20px;
 }
 
 .menu-horizontal{
     list-style: none;
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-around;
+    width: 100%;  
+      
 }
 
 .menu-horizontal > li >a{
@@ -68,11 +76,13 @@ nav a{
 .encabezado-img{
     background-image: url(./leaves-1350175_1280\ \(1\).jpg);
     height: 200px;
+    width: 100%;
     display: flex;
     background-size: cover;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;  
+    border-radius: 10px;
 }
 
 .encabezado-img h1{
@@ -80,16 +90,14 @@ nav a{
     font-family: monospace;
     color: #f2f2f2;
 }
-
+/* esto es el main*/
 .caja1{
-    background-color:#98bea4;
-    width: 82rem;
-    height: 20rem;
-    margin-top: 1rem;
+    background-color:#53b170;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
     padding: 1.3rem;
     position: relative;    
-    left: 1.3rem;
-    right: 1.3rem;
     border-radius: 8px;
  }
 
@@ -112,6 +120,19 @@ nav a{
     padding: 1.875rem;
 }
 
+/*testimonios*/
+
+.box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: blue;
+}
+
+#box3{
+    background-color: blueviolet;
+}
 
 
 

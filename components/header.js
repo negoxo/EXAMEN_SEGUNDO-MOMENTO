@@ -14,8 +14,8 @@ export function Header(){
     <li>
         <a href="#">Servicios</a>
         <ul class="menu-vertical">
-            <li><a href="#">Informes de análisis</a></li>
-            <li><a href="#">Herramientas predictivas</a></li>            
+            <li><a href="#service">Informes de análisis</a></li>
+            <li><a href="#service">Herramientas predictivas</a></li>            
         </ul>
     </li>
     <li>
