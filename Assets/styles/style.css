@@ -66,7 +66,7 @@ nav a{
 }
 
 .encabezado-img{
-    background-image: url(./leaves-1350175_1280\ \(1\).jpg);
+    background-image: url(/Assets/img/leaves-1350175_1280\ \(1\).jpg);
     height: 200px;
     display: flex;
     background-size: cover;
