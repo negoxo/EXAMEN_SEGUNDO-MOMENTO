@@ -11,7 +11,7 @@ body
 }
 
 nav{
-    margin: 20px;
+    margin: 10px;
     background-color: #98bea4;
     text-align: center;
     padding-top: 10px 0;     
@@ -66,13 +66,14 @@ nav a{
 }
 
 .encabezado-img{
-    background-image: url(/Assets/img/leaves-1350175_1280\ \(1\).jpg);
+    background-image: url("/Assets/img/leaves-1350175_1280\ \(1\).jpg");
     height: 200px;
     display: flex;
     background-size: cover;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;   
+    margin: 10px; 
 }
 
 .encabezado-img h1{
@@ -83,13 +84,11 @@ nav a{
 
 .caja1{
     background-color:#98bea4;
-    width: 82rem;
     height: 20rem;
     margin-top: 1rem;
     padding: 1.3rem;
     position: relative;    
-    left: 1.3rem;
-    right: 1.3rem;
+    margin: 10px;
     border-radius: 8px;
  }
 
@@ -110,6 +109,10 @@ nav a{
     float: left;
     max-width: 370px;
     padding: 1.875rem;
+}
+
+.caja1:hover{
+    background-color: aquamarine;
 }
 
 /* Parte Quienes Somos */

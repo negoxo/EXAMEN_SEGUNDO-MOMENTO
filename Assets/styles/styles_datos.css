@@ -1,0 +1,31 @@
+
+.contenedor{
+    display: flex;
+    
+    height: 500px;
+    margin: 10px;
+    
+}
+
+.cajita1{
+    width: 50%;
+    background-image: url("/Assets/img/datos.jpg");
+    background-size:contain;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.cajita2{
+    width: 50%;
+    background-color: rgb(56, 145, 111);
+    text-align: center;
+    
+    border-radius: 10px;
+    
+}
+
+.contenedor > div:hover{
+    background-color: aquamarine;
+}
