@@ -21,7 +21,7 @@ export function Service(){
             </li>
     </ul>
 
-    <img src="/Assets/RuidoAmbiental.png" alt="ruido trafico vehicular diurno">
+    <img src="/Assets/img/RuidoAmbiental.png">
 
 </nav>
 
