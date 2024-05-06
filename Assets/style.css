@@ -112,6 +112,94 @@ nav a{
     padding: 1.875rem;
 }
 
+/* Parte Quienes Somos */
+
+.cuadroGeneral{
+    margin: 20px;
+}
+.cuadroGeneral img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 13%;
+    height: 13%;
+    margin-right: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tituloQuienes{
+    text-align: center;
+    
+}
+
+.Keylly{
+    display: flex;
+    align-items: center;
+    border: 3px solid #647e6c;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #98bea4;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+}
+
+.JoseDaniel{
+    display: flex;
+    align-items: center;
+    border: 3px solid #647e6c;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #98bea4;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.Julian{
+    display: flex;
+    align-items: center;
+    border: 3px solid #647e6c;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #98bea4;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.Melany{
+    display: flex;
+    align-items: center;
+    border: 3px solid #647e6c;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #98bea4;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.DanielRios{
+    display: flex;
+    align-items: center;
+    border: 3px solid #647e6c;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #98bea4;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
 
 
 
