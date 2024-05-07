@@ -1,9 +1,6 @@
 export function App(){
     document.getElementById("root").innerHTML=`          
         <div class="caja1">
-            <div class="izquierda">
-                <img src="/Assets/img/header.jpg">
-             </div>
              
              <h1><b>Bienvenido a Medellín Verde</b></h1>
              <hr> 
