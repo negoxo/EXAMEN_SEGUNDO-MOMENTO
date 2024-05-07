@@ -1,6 +1,7 @@
 export function RecursosEducativos(){
-    document.getElementById("recursosEducativos").innerHTML =  `
+    document.getElementById("recursos").innerHTML =  `
     <div class="contenedorEducacion">
+    <h1>Recursos Educativos</h1><br/><br/>
         <div class="fotos">
             <img src="./Assets/img/estudios.jpg" alt="Estudiando Análisis de datos">
         </div>

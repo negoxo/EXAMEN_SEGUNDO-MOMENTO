@@ -6,6 +6,7 @@ import { Dashboard } from "./components/dashboard.js";
 import {Footer} from "./components/footer.js";
 import { Testimonios } from "./components/testimonios.js";
 import { Noticias } from "./components/noticias.js";
+import { RecursosEducativos } from "./components/recursosEducativos.js";
 
 
 
@@ -19,3 +20,4 @@ content.addEventListener("DOMContentLoaded", Dashboard);
 content.addEventListener("DOMContentLoaded",Footer);
 content.addEventListener("DOMContentLoaded",Testimonios);
 content.addEventListener("DOMContentLoaded",Noticias);
+content.addEventListener("DOMContentLoaded",RecursosEducativos);
