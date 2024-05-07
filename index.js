@@ -7,6 +7,7 @@ import {Footer} from "./components/footer.js";
 import { Testimonios } from "./components/testimonios.js";
 import { Noticias } from "./components/noticias.js";
 import { RecursosEducativos } from "./components/recursosEducativos.js";
+import { Faq } from "./components/faqs.js";
 
 
 
@@ -21,3 +22,4 @@ content.addEventListener("DOMContentLoaded",Footer);
 content.addEventListener("DOMContentLoaded",Testimonios);
 content.addEventListener("DOMContentLoaded",Noticias);
 content.addEventListener("DOMContentLoaded",RecursosEducativos);
+content.addEventListener("DOMContentLoaded",Faq);
