@@ -14,18 +14,22 @@
     border-radius: 10px;
     background-position: center;
     background-repeat: no-repeat;
-    
 }
 
 .cajita2{
     width: 50%;
-    height: 110%;
+    height: 100%;
     background-color: rgb(56, 145, 111);
     text-align: center;
     border-radius: 10px;
+    font-size:15px;
     
 }
 
-.contenedor > div:hover{
+.contenedor:hover{
+    background-color: aquamarine;
+}
+
+.cajita2:hover{
     background-color: aquamarine;
 }

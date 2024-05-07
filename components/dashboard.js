@@ -1,7 +1,6 @@
 export function Dashboard(){    
     document.getElementById("dashboard").innerHTML = 
-    `   
-    <link rel="stylesheet" href="./Assets/dashboard.css"> 
+    `    
     <div id="encabezado">
         <h1>Dashboard</h1>
         <hr>
