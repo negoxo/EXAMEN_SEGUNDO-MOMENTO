@@ -3,7 +3,7 @@ export function Testimonios(){
     <div class="contenedortitulo">
     <h1 class="testimonios">TESTIMONIOS</h2>
     </div>
-    <div class="contenedor1">
+    <div class="contenedort">
     
         <div class="columnaa">
                 <div class="foto1">
