@@ -1,0 +1,19 @@
+.service{
+    margin: 1rem;
+    display: flex;
+    background-color: #98bea4;
+}
+
+.service1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.informe{
+    width: 50%;
+}
+
+.herraminetas{
+    width: 50%;
+}
