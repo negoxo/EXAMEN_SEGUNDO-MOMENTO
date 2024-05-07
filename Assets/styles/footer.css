@@ -23,3 +23,36 @@ footer{
 .piepagina > li:hover{
     background-color: #7ebc91;
 }
+
+img{
+    size: 10px;
+}
+
+/*RESPONSIVE DESIGN*/
+
+
+
+/*
+@media screen and (max-width: 1000px){
+    .piepaginan {
+    display: flex;
+    width: 100%;
+    align-items: center;  
+    flex-direction: column;
+    height: 100%;
+    background-color: #98bea4;
+    border-radius: 10px;
+    }
+}*/
+
+@media screen and (max-width: 600px){
+    .piepaginan ul{
+        display: flex;
+        width: 100%;
+        align-items: center;  
+        flex-direction: column;
+        height: 100%;
+        background-color: #98bea4;
+        border-radius: 10px;
+}
+}

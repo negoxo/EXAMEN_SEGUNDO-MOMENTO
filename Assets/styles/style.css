@@ -20,7 +20,7 @@ nav{
 
 .menu-horizontal{
     list-style: none;
-    display: flex;
+    display: inline-flex;
     justify-content: space-around;    
 }
 
@@ -95,7 +95,7 @@ nav a{
     height: 20rem;
     margin-top: 1rem;
     padding: 1.3rem;
-    position: relative;    
+    position: relative;
     border-radius: 10px;
  }
 
@@ -256,8 +256,32 @@ color: #000000;
     background-color:#98bea4;
 }
 
+/*RESPONSIVE DESIGN*/
 
 
 
+@media screen and (max-width: 1000px){
+    .caja1{
+        display: flex;
+        width: 100%;
+        align-items: center;  
+        flex-direction: column;
+        height: 120%;
+        background-color: #98bea4;
+        border-radius: 10px;
+}
+}
+
+@media screen and (max-width: 600px){
+    .caja1{
+        display: flex;
+        width: 100%;
+        align-items: center;  
+        flex-direction: column;
+        height: 120%;
+        background-color: #98bea4;
+        border-radius: 10px;
+}
+}
 
 

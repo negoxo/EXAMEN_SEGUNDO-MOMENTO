@@ -6,7 +6,7 @@ export function Dashboard(){
         <hr>
         <h2>Boletín Epidemiológico Medellín</h2>
     </div>
-    <div class="dashboard-flex">               
+    <div class="dashboard-flex">  
         <div id="flexbox1"></div>
         <div id="flexbox2"></div>     
         <div id="flexbox3">

@@ -12,7 +12,7 @@
     background-color: aquamarine;
 }
 
-.contenedor1{
+.contenedort{
     display: flex;
     margin: 10px;
     height: 1000px;
@@ -93,4 +93,37 @@
     background-image: url("/Assets/img/testimonio4.jpg");
     background-size: cover;
     border-radius: 10px;
+}
+
+
+
+
+
+/*RESPONSIVE DESIGN*/
+
+/*
+
+
+@media screen and (max-width: 1000px){
+    .contenedort{
+    display: flex;
+    width: 100%;
+    align-items: center;  
+    flex-direction: column;
+    height: 100%;
+    background-color: #98bea4;
+    border-radius: 10px;
+    }
+}
+*/
+@media screen and (max-width: 600px){
+    .contenedort{
+        display: flex;
+        width: 120%;
+        align-items: center;  
+        flex-direction: column;
+        height: 120%;
+        background-color: #98bea4;
+        border-radius: 10px;
+}
 }
