@@ -19,4 +19,3 @@ content.addEventListener("DOMContentLoaded", Dashboard);
 content.addEventListener("DOMContentLoaded",Footer);
 content.addEventListener("DOMContentLoaded",Testimonios);
 content.addEventListener("DOMContentLoaded",Noticias);
-content.addEventListener("DOMContentLoaded",Noticias);
