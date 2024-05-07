@@ -70,3 +70,35 @@
     font-size: 15px;
     font-weight: 500;
 }
+
+/*RESPONSIVE DESIGN*/
+
+
+
+@media screen and (max-width: 1000px){
+    .accordion {
+    display: flex;
+    width: 95%;
+    align-items: center;  
+    flex-direction: column;
+    height: 80%;
+    background-color: #98bea4;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    }
+}
+
+@media screen and (min-width: 600px){
+        .accordion {
+        display: flex;
+        width: 70%;
+        align-items: center;  
+        flex-direction: column;
+        
+        background-color: #98bea4;
+        border-radius: 10px;
+        font-size: 15px;
+        text-align: center;
+}
+}
