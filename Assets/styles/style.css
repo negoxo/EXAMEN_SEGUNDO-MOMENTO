@@ -11,11 +11,11 @@ body
 }
 
 nav{
-    margin: 20px;
+    margin: 10px;
     background-color: #98bea4;
     text-align: center;
-    padding-top: 10px 0;     
-    
+    padding-top: 10px 0; 
+    border-radius: 10px;
 }
 
 .menu-horizontal{
@@ -68,13 +68,15 @@ nav a{
 }
 
 .encabezado-img{
-    background-image: url(./home.jpeg);
+    background-image: url("/Assets/img/home.jpeg");
     height: 300px;
     display: flex;
     background-size: cover;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;  
+    margin: 10px;  
+    border-radius: 10px;
 }
 
 .encabezado-img h1{
@@ -89,14 +91,12 @@ nav a{
 
 .caja1{
     background-color:#98bea4;
-    width: 72rem;
+    margin: 10px;
     height: 20rem;
     margin-top: 1rem;
     padding: 1.3rem;
     position: relative;    
-    left: 2rem;
-    right: 1.3rem;
-    border-radius: 8px;
+    border-radius: 10px;
  }
 
 .caja1 h1{
@@ -131,12 +131,13 @@ color: #000000;
 
 .cuadroGeneral{
     margin: 20px;
+    height: 100%;
 }
 .cuadroGeneral img{
     border-radius: 50%;
     object-fit: cover;
-    width: 13%;
-    height: 13%;
+    width: 100%;
+    height: 100%;
     margin-right: 20px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
 }
@@ -153,11 +154,19 @@ color: #000000;
     border-radius: 10px;
     padding: 10px;
     background-color: #98bea4;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
-    text-align: justify;
-    margin-right: 100px;
-    margin-left: 100px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);  
+}
+
+.textok{
+    width: 70%;
+    text-align: right   ;
+}
+
+.imagenk{
     
+    width: 30%;
+    height: 100%;
+    background-color:#98bea4;
 }
 
 .JoseDaniel{
@@ -168,10 +177,18 @@ color: #000000;
     padding: 10px;
     background-color: #98bea4;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
-    text-align: justify;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 10px;
+}
+.textoj{
+    width: 70%;
+    text-align: right   ;
+}
+
+.imagenj{
+    
+    width: 30%;
+    height: 100%;
+    background-color:#98bea4;
 }
 
 .Julian{
@@ -182,11 +199,20 @@ color: #000000;
     padding: 10px;
     background-color: #98bea4;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
-    text-align: justify;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
+.textoju{
+    width: 70%;
+    text-align: right   ;
+}
+
+.imagenju{
+    
+    width: 30%;
+    height: 100%;
+    background-color:#98bea4;
+}
+
 
 .Melany{
     display: flex;
@@ -196,10 +222,17 @@ color: #000000;
     padding: 10px;
     background-color: #98bea4;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
-    text-align: justify;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 10px;
+}
+.textom{
+    width: 70%;
+    text-align: right   ;
+}
+
+.imagenm{
+    width: 30%;
+    height: 100%;
+    background-color:#98bea4;
 }
 
 .DanielRios{
@@ -210,11 +243,19 @@ color: #000000;
     padding: 10px;
     background-color: #98bea4;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
-    text-align: justify;
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
+.textod{
+    width: 70%;
+    text-align: right
+}
+
+.imagend{
+    width: 30%;
+    height: 100%;
+    background-color:#98bea4;
+}
+
 
 
 

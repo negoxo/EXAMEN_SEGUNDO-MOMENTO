@@ -30,10 +30,11 @@ div#encabezado hr{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 10px;
 }
 
 div#flexbox1{
-    background-image: url(./ira.jpeg);    
+    background-image: url("/Assets/img/ira.jpeg");    
     background-repeat: no-repeat;
     width: 540px;
     height: 390px;
@@ -55,7 +56,7 @@ div#flexbox2{
     text-align: center;
     font-size: 18px;
     display: block;
-    margin: auto;
+    margin: 10px;
 }
 
 div#flexbox3 p{
@@ -70,6 +71,7 @@ div#flexbox3 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 25px;
     font-size: 20px;
+    text-align: center;
 }
 
 div#flexbox4{
@@ -80,4 +82,12 @@ div#flexbox4{
     border-radius: 20px;
     margin: 10px;    
     float: right;
+}
+
+#encabezado:hover{
+    background-color: aquamarine;
+}
+
+div#flexbox3 p:hover{
+    background-color: aquamarine;
 }
