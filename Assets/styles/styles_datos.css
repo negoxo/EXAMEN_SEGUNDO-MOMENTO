@@ -1,7 +1,7 @@
 
 .contenedor{
+
     display: flex;
-    
     height: 500px;
     margin: 10px;
     
@@ -19,9 +19,9 @@
 
 .cajita2{
     width: 50%;
+    height: 110%;
     background-color: rgb(56, 145, 111);
     text-align: center;
-    
     border-radius: 10px;
     
 }
