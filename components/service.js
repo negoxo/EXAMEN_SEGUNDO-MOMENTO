@@ -1,7 +1,7 @@
 export function Service(){
     document.getElementById("service").innerHTML =  `
 
-    <div class="service">
+    <div class="servicej">
         <div class="service1"> 
             <div class="informe">
                 <h1>Informes de Análisis</h1>
@@ -14,7 +14,9 @@ export function Service(){
             
         </div> 
 
-        <img src="/Assets/img/prioridades-ambientales.jpg" alt="Prioridades">
+        <div class="columna2">
+            
+        </div>
 
     </div>
 
