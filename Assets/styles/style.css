@@ -270,6 +270,7 @@ color: #000000;
         background-color: #98bea4;
         border-radius: 10px;
 }
+
 }
 
 @media screen and (max-width: 600px){
@@ -281,6 +282,15 @@ color: #000000;
         height: 120%;
         background-color: #98bea4;
         border-radius: 10px;
+}
+.menu-horizontal{
+    display: flex;
+    width: 100%;
+    align-items: center;  
+    flex-direction: column;
+    height: 100%;
+    background-color: #98bea4;
+    border-radius: 10px;
 }
 }
 
